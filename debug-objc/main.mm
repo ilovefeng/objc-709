@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -15,6 +16,8 @@ int main(int argc, const char * argv[]) {
         objc_class *obj_2 = (objc_class *)CFBridgingRetain([NSString class]);
         NSLog(@"%p,%p",obj_1,obj_2);
         NSLog(@"Hello, World!");
+        
+        
     }
     return 0;
 }
